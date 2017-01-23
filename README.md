@@ -25,6 +25,7 @@ http://hortonworks.com/hadoop-tutorial/introduction-spark-streaming/
 
 https://databricks.com/blog/2015/07/30/diving-into-apache-spark-streamings-execution-model.html
 
+http://davidssysadminnotes.blogspot.com/2016/09/running-spark-streaming-dcos.html
 
 ------------------------------------------------------------------------------------------------------
 FAQ:
