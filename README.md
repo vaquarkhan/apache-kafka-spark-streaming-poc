@@ -31,3 +31,5 @@ FAQ:
 
 https://docs.cloud.databricks.com/docs/latest/databricks_guide/07%20Spark%20Streaming/15%20Streaming%20FAQs.html
 
+JIRA:
+https://issues.apache.org/jira/browse/SPARK-18124
