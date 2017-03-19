@@ -34,3 +34,21 @@ https://docs.cloud.databricks.com/docs/latest/databricks_guide/07%20Spark%20Stre
 
 JIRA:
 https://issues.apache.org/jira/browse/SPARK-18124
+
+------------------------------------------------------------------------------------------------------
+
+http://spark.apache.org/docs/latest/configuration.html
+
+
+### Spark Streaming Backpressure. 
+
+### Issue 
+
+The streaming part works fine but when we initially start the job, we have to deal with really huge Kafka message backlog, millions of messages, and that first batch runs for over 40 hours,  and after 12 hours or so it becomes very very slow, it keeps crunching messages, but at a very low speed. 
+
+### Solution 
+
+spark.streaming.backpressure.enabled
+spark.streaming.receiver.maxRate
+
+https://vanwilgenburg.wordpress.com/2015/10/06/spark-streaming-backpressure/
