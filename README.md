@@ -53,7 +53,7 @@ The streaming part works fine but when we initially start the job, we have to de
 
 ### Solution 
 
-spark.streaming.backpressure.enabled
-spark.streaming.receiver.maxRate
+     spark.streaming.backpressure.enabled
+     spark.streaming.receiver.maxRate
 
 https://vanwilgenburg.wordpress.com/2015/10/06/spark-streaming-backpressure/
